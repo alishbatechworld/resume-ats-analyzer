@@ -1,6 +1,6 @@
 import os
 import streamlit as st
-from google import genai
+import google.generativeai as genai
 from pypdf import PdfReader
 
 # Page configuration
